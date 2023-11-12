@@ -5,7 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import actions.HomeActions;
+import actions.LoginActions;
 import core.DriverFactory;
 
 public class BaseTest {
@@ -24,13 +24,12 @@ public class BaseTest {
 
     @Test
     public void myTestMethod() {
-        System.out.println("Hello, TestNG!");
+        
         // Your test logic goes here
-        HomeActions homepage = new HomeActions(driver);
+        LoginActions loginaction = new LoginActions(driver);
         
-        homepage.loginAsUser1();
-        
-        
+        loginaction.loginAsUser_student();
+    
     }
 
     @AfterMethod

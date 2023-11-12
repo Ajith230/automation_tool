@@ -2,7 +2,7 @@ package Locators;
 
 import core.WebLocator;
 
-public interface HomePageLocator {
+public interface LoginPageLocator {
 
 	WebLocator LOGIN_BUTTON = new WebLocator("login Button",WebLocator.LocatorType.ID,
 			"submit");

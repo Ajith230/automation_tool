@@ -16,7 +16,7 @@ public class WebMethods {
     // Method to click on a web element using WebLocator
     public void click(WebLocator webLocator) {
         getElement(webLocator).click();
-     
+        //print: clicked on weblocator.name, locator type, locator value
     }
 
     // Method to enter text into an input field using WebLocator

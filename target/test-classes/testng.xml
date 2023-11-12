@@ -2,7 +2,7 @@
 <suite name="TestSuite">
     <test name="MyTest">
         <classes>
-            <class name="src.test.java.testcases.MyTestClass"/>
+            <class name="src.test.java.testcases.*"/>
             <!-- Add more test classes as needed -->
         </classes>
     </test>

@@ -1,5 +1,5 @@
 C:\Users\ajith\Desktop\framework\framework\src\test\java\coretest\BaseTest.java
-C:\Users\ajith\Desktop\framework\framework\src\test\java\actions\HomeActions.java
+C:\Users\ajith\Desktop\framework\framework\src\test\java\actions\LoginActions.java
 C:\Users\ajith\Desktop\framework\framework\src\test\java\testcases\MyTestClass.java
-C:\Users\ajith\Desktop\framework\framework\src\test\java\pages\HomePage.java
-C:\Users\ajith\Desktop\framework\framework\src\test\java\Locators\HomePageLocator.java
+C:\Users\ajith\Desktop\framework\framework\src\test\java\Locators\LoginPageLocator.java
+C:\Users\ajith\Desktop\framework\framework\src\test\java\pages\LoginPage.java

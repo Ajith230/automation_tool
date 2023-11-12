@@ -24,7 +24,6 @@ public class DriverFactory {
         if (driverThreadLocal.get() == null) {
             switch (browser) {
                 case CHROME:
-//                	WebDriverManager.chromedriver().setup();
                 	 System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajith\\Desktop\\framework\\framework\\src\\main\\resources\\chromedriver.exe");
                     driverThreadLocal.set(new ChromeDriver());
                     break;

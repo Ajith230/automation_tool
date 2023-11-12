@@ -2,27 +2,30 @@ package pages;
 
 import org.openqa.selenium.WebDriver;
 
-import Locators.HomePageLocator;
-import core.BasePage;
+import Locators.LoginPageLocator;
 import core.WebMethods;
 
-public class HomePage extends BasePage implements HomePageLocator {
+public class LoginPage implements LoginPageLocator {
 	private WebMethods driver;
-	public HomePage(WebDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
+	public LoginPage(WebDriver driver) {
 		this.driver = new WebMethods(driver);
 	}
 	
-	public void enterUserName(String username) {
+	public LoginPage enterUserName(String username) {
 		driver.enterText(USERNAME, username);
+		return this;
 	}
 	
-	public void enterPassword(String password) {
+	public LoginPage enterPassword(String password) {
 		driver.enterText(PASSWORD, password);
+		return this;
 	}
 	
 	public void clickLoginButton() {
 		driver.click(LOGIN_BUTTON);
+	}
+
+	public void verifyLogin() {
+		
 	}
 }

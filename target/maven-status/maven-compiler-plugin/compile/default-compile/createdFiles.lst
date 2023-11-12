@@ -1,6 +1,5 @@
 core\WebLocator$1.class
 core\WebLocator.class
-core\BasePage.class
 core\DriverFactory$1.class
 core\DriverFactory$Browser.class
 core\WebMethods.class
