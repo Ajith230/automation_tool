@@ -1,0 +1,5 @@
+testcases\MyTestClass.class
+Locators\HomePageLocator.class
+actions\HomeActions.class
+coretest\BaseTest.class
+pages\HomePage.class
